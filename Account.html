@@ -29,38 +29,20 @@
                 <nav class="col-4">
                     <ul>
                         <form action="" method="get">
+                            <i class="fas fa-microscope"></i>
                             <input name="s"placeholder="Искать здесь..." type="search">
                           </form>
                     </ul>
                 </nav>
-                <nav class="col-4">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <i class="fas fa-robot"></i>
-                                вы
-                            </a>
-                        </li>
+                <div class="dropdown col-4">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Вы
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="Account.html">К аккаунту</a></li>
+                      <li><a class="dropdown-item" href="reg.html">Войти</a></li>
                     </ul>
-                </nav>
+                  </div>
             </div>
         </div>
     </header>
-
-<div class="container sumbit_form">
-    <form class="row justify-content-md-center" method="post" action="reg.html">
-        <h2>Войдите в Аккаунт</h2>
-
-        <div class="mb-3 col-12 col-md-4">
-          <label for="exampleInputEmail1" class="form-label">Электронная почта</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="w-100"></div>
-        <div class="mb-3 col-12 col-md-4">
-          <label for="exampleInputPassword1" class="form-label">Пароль</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="w-100"></div>
-        <button type="submit" class="btn btn-primary col-12 col-md-4">войти</button>
-      </form>
-</div>
