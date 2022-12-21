@@ -33,16 +33,15 @@
                           </form>
                     </ul>
                 </nav>
-                <nav class="col-4">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <i class="fas fa-robot"></i>
-                                вы
-                            </a>
-                        </li>
+                <div class="dropdown col-4">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Вы
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="Account.html">К аккаунту</a></li>
+                      <li><a class="dropdown-item" href="reg.html">Войти</a></li>
                     </ul>
-                </nav>
+                  </div>
             </div>
         </div>
     </header>
@@ -62,5 +61,6 @@
         </div>
         <div class="w-100"></div>
         <button type="submit" class="btn btn-primary col-12 col-md-4">войти</button>
-      </form>
+
+      </form>   
 </div>
