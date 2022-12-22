@@ -63,9 +63,7 @@ header ul li a:hover{
     color: black;
 }
 
-.main-content h1{
-    margin: 30px;
-}
+
 
 .main-content .post{
     margin-bottom: 3em;
@@ -180,7 +178,7 @@ h3{
     background: #fff;
     list-style-type: none;
     margin: -10px 0 0;
-    padding: 0 0 0 140px;
+    padding: 0 0 0 20   px;
     white-space: nowrap;
     border-radius: 0
 }
@@ -602,22 +600,18 @@ select.form-control:not([size]):not([multiple]) {
     margin-left: 44px
 }
 .timeline>li {
+    margin-top: 40px;
     position: relative;
     min-height: 50px;
     padding: 20px 0
 }
 
-.timeline .timeline-time {
-    position: absolute;
-    left: 0;
-    width: 18%;
-    text-align: right;
-    top: 30px
-}
+
 
 .timeline .timeline-body {
+    margin-top: 30px;
     margin-left: 23%;
-    margin-right: 17%;
+    margin-right: 23%;
     background: whitesmoke;
     position: relative;
     padding: 20px 25px;
@@ -650,7 +644,9 @@ select.form-control:not([size]):not([multiple]) {
     overflow: hidden;
     margin: -2px 10px -2px 0
 }
-
+.profile-header-tab{
+    margin-right: 200px;
+}
 .timeline-header .username {
     font-size: 16px;
     font-weight: 600
@@ -773,29 +769,42 @@ body{
 }
 
 
-.people-nearby .google-maps{
-  background: #f8f8f8;
-  border-radius: 4px;
-  border: 1px solid #f1f2f2;
-  padding: 20px;
-  margin-bottom: 20px;
-}
 
-.people-nearby .google-maps .map{
-  height: 300px;
-  width: 100%;
-  border: none;
-}
+
+
 
 .people-nearby .nearby-user{
-  padding: 20px 0;
-  border-top: 1px solid #f1f2f2;
-  border-bottom: 1px solid #f1f2f2;
+  width: 700px;
+  margin-left: 300px;  
+  margin-top: 30px;
+  padding: 20px 0 0 ;
+  background-color: whitesmoke;
+  background-position: center;
+  border-radius: 20px;
   margin-bottom: 20px;
+}
+.people-nearby .btn{
+    margin-top: 21px;
+    margin-right: 50px;
+}
+.people-nearby h5{
+   margin-left: 20px;
+   margin-top: 25px;
 }
 
 img.profile-photo-lg{
+  margin-bottom: 15px;
+  margin-left: 15px;
   height: 80px;
   width: 80px;
   border-radius: 50%;
+}
+   
+.form-group{
+    margin: 0 320px;
+    width: 640px;
+}
+.button-group{
+    margin-top: 7px;
+    margin-right: 320px;
 }
